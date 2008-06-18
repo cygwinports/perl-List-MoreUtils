@@ -1,0 +1,4 @@
+category: Perl
+requires: cygwin perl
+sdesc: "Perl List::Util additional functionality module"
+ldesc: "Perl module providing the missing functionality from List::Util."

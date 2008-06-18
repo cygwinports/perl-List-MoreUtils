@@ -1,0 +1,55 @@
+perl-List-MoreUtils
+------------------------------------------
+Perl module providing the missing functionality from List::Util.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  perl-5.10.0-4
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/List-MoreUtils/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/V/VP/VPARSEVAL/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-List-MoreUtils-0.22-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-List-MoreUtils-0.22-X.cygport all
+
+This will create:
+  /usr/src/perl-List-MoreUtils-0.22-X-src.tar.bz2
+  /usr/src/perl-List-MoreUtils-0.22-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/List/MoreUtils.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/List/MoreUtils/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/List/MoreUtils/MoreUtils.dll
+  /usr/share/doc/perl-List-MoreUtils-0.22/Changes
+  /usr/share/doc/perl-List-MoreUtils-0.22/README
+  /usr/share/man/man3/List.MoreUtils.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.22-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
